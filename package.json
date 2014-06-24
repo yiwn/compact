@@ -1,0 +1,36 @@
+{
+  "name": "yiwn-compact",
+  "description": "Exclude `null` and `undefined` properties from given object.",
+  "version": "0.0.1",
+  "author": "Mushex Antaranian",
+  "license": "MIT",
+  "keywords": [
+    "compact",
+    "yiwn"
+  ],
+  "homepage": "https://github.com/yiwn/compact",
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/yiwn/compact.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yiwn/compact/issues"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "component": "^1.0.0-rc5",
+    "mocha": "^1.20.1",
+    "jshint": "^2.5.1",
+    "chai": "^1.9.1"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "make test"
+  },
+  "main": "index.js"
+}
